@@ -21,7 +21,7 @@ function House(props) {
             <h2>Recommended Monthly Mortgage: {props.mortgage}</h2>
 
             <h2>Desired Rent: {props.rent}</h2>
-            
+
             <h2>Recommended Rent: {+props.mortgage * 1.25}</h2>
 
             <button onClick={() => props.deleteHouse(props.id)}>Delete</button>

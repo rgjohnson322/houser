@@ -9,8 +9,8 @@ function App() {
     <HashRouter>
       <div className="App">
         <Header />
-          <Link to="/" />
-          <Link to="/wizard" />
+        <Link to="/" />
+        <Link to="/wizard" />
         {routes}
       </div>
     </HashRouter>

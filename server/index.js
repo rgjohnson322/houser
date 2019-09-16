@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const massive = require('massive')
 const controller = require('./controller')
-const {SERVER_PORT, CONNECTION_STRING} = process.env
+const { SERVER_PORT, CONNECTION_STRING } = process.env
 
 const app = express();
 
